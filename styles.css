@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling if content overflows */
+    overflow-y: auto; /* Allow vertical scrolling for content that exceeds the viewport */
   }
   
   .container {
@@ -31,7 +33,7 @@ body {
     font-size: 2rem;
     padding: 10px 20px;
     color: white;
-    background: linear-gradient(90deg, #ffffff52, #ffffff75, #ffffff20);
+    background: linear-gradient(90deg, #ffffff52, #ffc9c975, #ffffff20);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50px;
     backdrop-filter: blur(10px);
