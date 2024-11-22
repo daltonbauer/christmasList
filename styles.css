@@ -1,0 +1,148 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.pikbest.com/wp/202346/winter-wonderland-festive-3d-render-of-dark-blue-holiday-background_9727489.jpg!w700wp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: white;
+    background: linear-gradient(90deg, #ffffff52, #ffffff75, #ffffff20);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: gradient-shift 1s infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0% { background-position: 0%; }
+    50% { background-position: 100%; }
+    100% { background-position: 0%; }
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Ensures 4 items across */
+    gap: 20px;
+  }
+
+  .item {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    align-items: center;
+    
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .item-loaded {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .item:hover {
+    animation: glow-pulse 1.5s infinite;
+  }
+  
+  @keyframes glow-pulse {
+    0% {
+      transform: scale(1.03); /* Slightly enlarge the item */
+      box-shadow: 0 0 10px rgba(255, 207, 35, 0.4);
+    }
+    50% {
+      transform: scale(1.05); /* Slightly enlarge the item */
+      box-shadow: 0 0 20px rgba(255, 207, 35, 0.6);
+    }
+    100% {
+      transform: scale(1.03); /* Slightly enlarge the item */
+      box-shadow: 0 0 10px rgba(255, 207, 35, 0.4);
+    }
+  }
+  
+  .item-image {
+    height: 180px;
+    width: 180px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+  }
+
+  .item-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 0 20px rgba(255, 207, 35, 0.318), 0 0 30px rgba(255, 207, 35, 0.118); /* Glow effect */
+  }
+  
+  .item-image.red {
+    background: linear-gradient(135deg, #ff5555, #ff9999);
+  }
+  
+  .item-image.green {
+    background: linear-gradient(135deg, #55ff55, #99ff99);
+  }
+  
+  .item-image.gray {
+    background: linear-gradient(135deg, #999999, #cccccc);
+  }
+  
+  .item-image.gold {
+    background: linear-gradient(135deg, #ffcc00, #ffee55);
+  }
+  
+  .item-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .item-price {
+    font-size: 0.9rem;
+    color: #eee;
+  }
+
+  .item-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the text color */
+    display: block; /* Make the entire item clickable */
+  }
+  
+  .item-link:hover {
+    text-decoration: none; /* Ensure no underline on hover */
+    color: inherit; /* Maintain text color on hover */
+  }

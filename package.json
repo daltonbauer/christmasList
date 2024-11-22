@@ -1,0 +1,21 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "firebase deploy",
+    "serve": "firebase serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite": "^4.5.5"
+  },
+  "dependencies": {
+    "firebase": "^11.0.2"
+  }
+}
