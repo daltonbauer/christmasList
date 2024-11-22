@@ -23,7 +23,7 @@ const items = [
 
     {   
       name: "Hollister BOXY ZIP-UP PUFFER JACKET - M, Tan", 
-      price: "$77", 
+      price: "$77.00", 
       image: "https://img.hollisterco.com/is/image/anf/KIC_332-4086-00053-100_prod1.jpg?policy=product-extra-large",
       link: "https://www.hollisterco.com/shop/us/p/boxy-mock-neck-puffer-jacket-58378820?categoryId=16400&faceout=model&seq=03" 
     },
@@ -64,17 +64,38 @@ const items = [
     },
 
     {   
-      name: "Red Sweater", 
-      price: "$45", 
-      image: "",
-      link: "" 
+      name: "ZIP-UP PUFFER VEST - M, Tan", 
+      price: "$48.97", 
+      image: "https://img.hollisterco.com/is/image/anf/KIC_332-4092-00018-100_prod1.jpg?policy=product-large",
+      link: "https://www.hollisterco.com/shop/us/p/zip-up-puffer-vest-58565822?categoryId=16400&faceout=model&seq=01" 
     },
 
     {   
-      name: "Red Sweater", 
-      price: "$45", 
-      image: "",
-      link: "" 
+      name: "BOXY PATTERN CREW SWEATER - M, White Stripe", 
+      price: "$34.97", 
+      image: "https://img.hollisterco.com/is/image/anf/KIC_320-4059-00088-105_prod1.jpg?policy=product-large",
+      link: "https://www.hollisterco.com/shop/us/p/boxy-crew-sweater-58429319?seq=05" 
+    },
+
+    {   
+      name: "BOXY CAMO CREW SWEATSHIRT - M, Tan Camo", 
+      price: "$27.97", 
+      image: "https://img.hollisterco.com/is/image/anf/KIC_322-4105-00219-316_prod1.jpg?policy=product-large",
+      link: "https://www.hollisterco.com/shop/us/p/boxy-camo-crew-sweatshirt-58378819?seq=04&prodvm=recommendations-AdvancedMerchandisingStrategy-%20-%20&pagefm=recommendations-AdvancedMerchandisingStrategy-" 
+    },
+
+    {   
+      name: "MK Reversible Logo and Leather Belt - Black", 
+      price: "$39.00", 
+      image: "https://michaelkors.scene7.com/is/image/MichaelKors/36F1LBLY9B-0001_1?",
+      link: "https://www.michaelkors.com/reversible-logo-and-leather-belt/36F1LBLY9B.html?astc=true&dwvar_36F1LBLY9B_color=0001" 
+    },
+
+    {   
+      name: "Car Down Payment", 
+      price: "$5,000", 
+      image: "https://www.fett-wirtz.de//assets/components/phpthumbof/cache/rendering-i4.e943620aee5239f2247ad651ed28052a.webp",
+      link: "https://www.bmwusa.com/vehicles/i-series/i4/bmw-i4-gran-coupe.html" 
     },
   ];
 
