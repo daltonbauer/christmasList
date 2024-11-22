@@ -1,1 +1,157 @@
-body{margin:0;font-family:Arial,sans-serif;background-image:url(https://img.pikbest.com/wp/202346/winter-wonderland-festive-3d-render-of-dark-blue-holiday-background_9727489.jpg!w700wp);background-attachment:fixed;background-size:cover;background-position:center;color:#fff;min-height:100vh;display:flex;justify-content:center;align-items:center}.container{width:90%;max-width:1200px;text-align:center}.header{margin-bottom:20px}html{scroll-behavior:smooth}.header h1{font-size:2rem;padding:10px 20px;color:#fff;background:linear-gradient(90deg,#ffffff52,#ffffff75,#ffffff20);border:1px solid rgba(255,255,255,.2);border-radius:50px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 4px 10px #0003;animation:gradient-shift 1s infinite}@keyframes gradient-shift{0%{background-position:0%}50%{background-position:100%}to{background-position:0%}}.list{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}.item{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);-webkit-backdrop-filter:blur(15px);backdrop-filter:blur(15px);border-radius:10px;padding:20px;box-shadow:0 4px 15px #0003;transition:transform .2s,box-shadow .2s;align-items:center;opacity:0;transform:translateY(20px);transition:opacity .5s ease,transform .5s ease}.item-loaded{opacity:1;transform:translateY(0)}.item:hover{animation:glow-pulse 1.5s infinite}@keyframes glow-pulse{0%{transform:scale(1.03);box-shadow:0 0 10px #ffcf2366}50%{transform:scale(1.05);box-shadow:0 0 20px #ffcf2399}to{transform:scale(1.03);box-shadow:0 0 10px #ffcf2366}}.item-image{height:180px;width:180px;border-radius:8px;margin-bottom:10px;background:rgba(255,255,255,.2);background-size:cover;background-position:center;display:flex;justify-content:center;align-items:center;border:1px solid rgba(255,255,255,.3)}.item-image:hover{transform:scale(1.05);box-shadow:0 0 20px #ffcf2351,0 0 30px #ffcf231e}.item-image.red{background:linear-gradient(135deg,#ff5555,#ff9999)}.item-image.green{background:linear-gradient(135deg,#55ff55,#99ff99)}.item-image.gray{background:linear-gradient(135deg,#999999,#cccccc)}.item-image.gold{background:linear-gradient(135deg,#ffcc00,#ffee55)}.item-name{font-size:1.1rem;font-weight:700}.item-price{font-size:.9rem;color:#eee}.item-link{text-decoration:none;color:inherit;display:block}.item-link:hover{text-decoration:none;color:inherit}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.pikbest.com/wp/202346/winter-wonderland-festive-3d-render-of-dark-blue-holiday-background_9727489.jpg!w700wp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    text-align: center
+}
+
+.header {
+    margin-bottom: 20px
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.header h1 {
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: #fff;
+    background: linear-gradient(90deg, #ffffff52, #ffffff75, #ffffff20);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 50px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px #0003;
+    animation: gradient-shift 1s infinite
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0%
+    }
+
+    50% {
+        background-position: 100%
+    }
+
+    to {
+        background-position: 0%
+    }
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px
+}
+
+.item {
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .2);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px #0003;
+    transition: transform .2s, box-shadow .2s;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .5s ease, transform .5s ease
+}
+
+.item-loaded {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.item:hover {
+    animation: glow-pulse 1.5s infinite
+}
+
+@keyframes glow-pulse {
+    0% {
+        transform: scale(1.03);
+        box-shadow: 0 0 10px #ffcf2366
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px #ffcf2399
+    }
+
+    to {
+        transform: scale(1.03);
+        box-shadow: 0 0 10px #ffcf2366
+    }
+}
+
+.item-image {
+    height: 180px;
+    width: 180px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, .2);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, .3)
+}
+
+.item-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffcf2351, 0 0 30px #ffcf231e
+}
+
+.item-image.red {
+    background: linear-gradient(135deg, #ff5555, #ff9999)
+}
+
+.item-image.green {
+    background: linear-gradient(135deg, #55ff55, #99ff99)
+}
+
+.item-image.gray {
+    background: linear-gradient(135deg, #999999, #cccccc)
+}
+
+.item-image.gold {
+    background: linear-gradient(135deg, #ffcc00, #ffee55)
+}
+
+.item-name {
+    font-size: 1.1rem;
+    font-weight: 700
+}
+
+.item-price {
+    font-size: .9rem;
+    color: #eee
+}
+
+.item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block
+}
+
+.item-link:hover {
+    text-decoration: none;
+    color: inherit
+}
