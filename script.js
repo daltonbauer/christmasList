@@ -63,6 +63,13 @@ const items = [
       link: "https://www.jbl.com/party-speakers/PARTYBOX-110-.html" 
     },
 
+    {
+      name: "Corsair K65 Plus Wireless Mechanical Keyboard for Mac",
+      price: "$179 ($152)",
+      image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HRYZ2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1729650098370",
+      link: "https://www.apple.com/shop/product/HRYZ2ZM/A/corsair-k65-plus-wireless-mechanical-gaming-keyboard-for-mac?fnode=83adc94b3b2ace0211af66d1cd7e9e83434f6319e50b83c5b1c04963a5ff215f451be34704c5e1c3a804ee586a728b5d17e1beabb737661e7a10baeb45d302c09931b4152a9e983af789760f688fb00a35cdc48d7ea800cd37882860b54cdc82"
+    }
+
     {   
       name: "BAGGY CARGO PULL-ON PANTS - M, Light Tan", 
       price: "$41.97", 
