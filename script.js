@@ -50,6 +50,20 @@ const items = [
     },
 
     {   
+      name: "DJI Mini 4 Pro", 
+      price: "$759", 
+      image: "https://se-cdn.djiits.com/tpc/uploads/carousel/image/f96def8770cb7529d7a98731fa2117dd@ultra.jpg",
+      link: "https://store.dji.com/product/dji-mini-4-pro?_gl=1%2A1fa9s46%2A_up%2AMQ..%2A_gs%2AMQ..&gclid=CjwKCAiAgoq7BhBxEiwAVcW0LA16nwkhkvhvO54nI1-II0eKqRURR1jrHRZLMN8pbze_2AQJpqzrWxoCJRgQAvD_BwE&gbraid=0AAAAADO_H_dioJXIMFGRktne_Gc2wKbSq&vid=1485811" 
+    },
+
+    {   
+      name: "JBL PARTYBOX 110", 
+      price: "$299", 
+      image: "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwe7a2c14d/1_JBL_PARTYBOX_110_HERO_x2.png?sw=535&sh=535",
+      link: "https://www.jbl.com/party-speakers/PARTYBOX-110-.html" 
+    },
+
+    {   
       name: "BAGGY CARGO PULL-ON PANTS - M, Light Tan", 
       price: "$41.97", 
       image: "https://img.hollisterco.com/is/image/anf/KIC_330-4150-00126-178_prod1.jpg?policy=product-large",
